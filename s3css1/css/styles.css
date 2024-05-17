@@ -1,0 +1,45 @@
+/* Selector universal
+selecciona todos los elementos html * 
+Se indica a travéz de un asterisco * */
+
+*{
+    font-family: arial;
+}
+
+/*Selector por tagname
+Selecciona todos los elementos cuyo tagname sea el indicado 
+en el selector 
+*/
+
+p, span{
+    text-transform: uppercase;
+}
+
+a{
+    color: red;
+    text-decoration: none;
+}
+
+
+/*Selector por clase 
+el punto es cuando estoy indicando una class */
+
+.parrafo-destacado{
+    text-decoration: underline;
+    font-style: italic;
+    color: purple;
+    font-weight: bold;
+    background-color: rgb(207, 207, 24);
+}
+
+/*Selector por un id
+Selecciona aquel elemento cuyo ID 
+sea igual al indicado
+en el selector*/
+
+#mi-enacabezado-chulo{
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: peru;
+}
