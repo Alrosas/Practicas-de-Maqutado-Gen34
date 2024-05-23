@@ -1,3 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: arial;
+}
+
 .card {
   border: 1px solid #acacac;
   border-radius: 0.5rem;
